@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://images.unsplash.com/photo-1561414927-6d86591d0c4f?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="amount">Donation Amount:</label>
+        <input type="number" id="amount" name="amount" min="1" required>
+
+        <label for="currency">Currency:</label>
+        <select id="currency" name="currency" required>
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="gbp">GBP</option>
+            <option value="gbp">IND</option>
+            <!-- Add more currency options as needed -->
+        </select>
+
+        <button type="submit">Donate Now</button>
+    </form>
+</body>
+</html>

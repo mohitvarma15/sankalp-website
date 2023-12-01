@@ -1,0 +1,159 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    /* text-align: center; */
+}
+
+#donate{
+    background-color: #e8491d;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1506869673173-31eba16560ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e8491d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+.featured-campaigns {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-campaigns h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.campaign-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.social-services {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.social-services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #444;
+}
+
+.how-it-works {
+    padding: 40px 20px;
+    background-color: #333;
+    text-align: center;
+    background-color: #fff;
+}
+
+.how-it-works h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.step-number {
+    background-color: #e8491d;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.step-description {
+    max-width: 600px;
+}
+
+.success-stories {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.success-stories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.story-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+}
+.raman{
+    background-color: #333;
+}
